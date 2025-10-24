@@ -1,18 +1,28 @@
 const Hero = () =>{
-    return (
-        <nav>
-            <div className="logo">
-                <img src="../images/brand_logo (1).png" alt="logo" />
+    return(
+    <main className="Hero">
+        <div className="Hero-contant">
+            <h1>YOUR FEET DESERVE THE BEST </h1>
+            <p>YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.</p>
+
+            <div className="hero-btn">
+                <button>shop Now</button>
+                <button>Category</button>
             </div>
-            <ul>
-                <li href="#">Menu</li>
-                <li href="#">Location</li>
-                <li href="#">About</li>
-                <li href="#">Contact</li>
-            </ul>
-            <button>login</button>
-        </nav>
+
+            <div className="shopping">
+                <p>Also Availabe On</p>
+                <div className="brand">
+                    <img src="/images/flipkart.png" alt="" />
+                </div>
+            </div>
+
+        </div>
+        <div className="Hero-img">
+            <img src="/images/shoe_image.png" alt="img" />
+        </div>
+
+    </main>
     )
 }
-
 export default Hero;
