@@ -7,13 +7,14 @@ const Hero = () =>{
 
             <div className="hero-btn">
                 <button>shop Now</button>
-                <button>Category</button>
+                <button className="btn-2">Category</button>
             </div>
 
             <div className="shopping">
                 <p>Also Availabe On</p>
                 <div className="brand">
-                    <img src="/images/flipkart.png" alt="" />
+                    <img src="/images/flipkart.png" alt="icon" />
+                    <img src="/images/amazon.png" alt="icon" />
                 </div>
             </div>
 
