@@ -69,3 +69,14 @@ button{
   display: flex;
   gap: 16px;
 }
+
+/* reponsive for small screen */
+
+@media (min-width: 360px) and (max-width: 767px){
+  nav{
+    max-width: 500px;
+  }
+  button{
+    height: 25px;
+  }
+}
