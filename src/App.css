@@ -79,4 +79,15 @@ button{
   button{
     height: 25px;
   }
+  .Hero{
+    max-width: 500px;
+  }
+  .Hero-img{
+    display: none;
+  }
+  .Hero-contant h1{
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px ;
+}
 }
