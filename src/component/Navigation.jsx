@@ -8,7 +8,7 @@ const Navigation = ({ toggle }) => {
         <li>Menu</li>
         <li>Location</li>
         <li>About</li>
-        <li>Contact</li>
+        <li>Contacts</li>
       </ul>
       <button onClick={toggle}>Login</button>
     </nav>
